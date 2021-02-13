@@ -2,17 +2,47 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Welcome to my 'About Me' Page! </title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="Dollarsign.gif">
+
+    <!-- This text below is internal CSS. The External CSS style sheet can be seen on index.css
+    <style>
+        body {
+            background-color: #3FC1C9;
+        }
+
+        hr {
+            background-color: #3f72af;
+            border-style: dashed;
+            border-top-style: dotted;
+            border-color: #3f72af;
+            border-width: 10px;
+            width: 10%;
+            height: 2px;
+        }
+
+        table {
+            border-width: 8px;
+            background: #3f72af;
+        }
+    </style> 
 </head>
+-->
 
 <body>
     <!--- Profile Image --->
     <div class="container" style="margin-button:0">
         <div id="header">
             <hr>
-            <h1> CUS 1172 </h1>
+            <br>
+            <br>
+            <h1 id="heading"> The Computating World of Robert "Dolla" Bills!</h1>
+            <hr>
         </div>
-        <div class="topnav">
+        <div id="topnav">
             <a class="active" href="#aboutme"> ||| About Me | </a>
             <a class="active" href="#Education">Education | </a>
             <a class="active" href="#Work">Work/Project Experience | </a>
@@ -27,27 +57,29 @@
             <!--- About Me --->
             <div class="HTML">
                 <a id="aboutme"></a>
+                <br>
                 <h2> About Me </h2>
                 <div class="HTML Image">
+                    <p> Hello! My name is Robert Bills! I am 22 years old, and currently a Senior at St John's
+                        University.</p>
+
                     <img src="LinkedIn.jpg" alt="Profile Image" width=“200” height="200">
-                </div>
-                <hr>
-                <ul>
-                    <p> Hello! My name is Robert Bills! </p>
-                    <p> I am a Senior at St John's University. Formerly majoring in Information Technology, I decided
-                        that Information Technology does not suit
-                        me toward the path I expected. My heart was in the right place, but not the passion, and so
+
+                    <p>Formerly majoring in
+                        Information Technology, I decided that Information Technology does not suit me toward the path I
+                        expected.</p>
+                    <p> My heart was in the right place, but not the passion, and so
                         in my third year (Fall 2020), I switched majors from Information Technology to
                         Computer Science, with a Minor in
                         Communications. </p>
-                    <p> My anticipated graduation is <span style="color: green"><strong>Fall 2021</strong></span></p>
-                </ul>
+                </div>
+
             </div>
             <!--- Education --->
             <a id="Education"></a>
             <div class="Education">
-                <h2> Education </h2>
                 <hr>
+                <h2> Education </h2>
                 <table style="width: 50%">
                     <caption><strong>Presenting in order from Elementary to University</strong></caption>
                     <thead>
@@ -78,40 +110,50 @@
                     <br>
                 </table>
                 <br>
-                <caption><strong>Note:</strong> I am considering staying an additional year for St John's University.
+                <caption><strong>Note:</strong>
+                    <p> While I might consider staying an additional year for St John's University, my anticipated
+                        graduation is <span style="color: green"><strong>Fall 2021</strong></span></p>
                 </caption>
                 <hr>
             </div>
             <!--- Work Experience/Internships --->
             <a id="Work"></a>
             <div class="Work Experience/Internships">
-                <h2> Work Experience/Internships </h2>
+                <h2> Work/Project Experience</h2>
                 <dl>
                     <h3><strong>Work Experience</strong></h3>
-                    <dt>Joe and the Juice</dt>
-                    <dd>We have always been about coffee, juice and much more. In JOE & THE JUICE, “a Juicer” is not a
-                        machine! We focus 100% on people! Our fundamental purpose is to build a contemporary educational
-                        platform for how to prepare all people of our movement for a healthy life filled with aspiration
-                        and meaning. Because the world has changed, and what the world needs has changed. </dd>
-                    <dt>Oaklandish</dt>
-                    <dd>Our mission is to spread “local love” by way of our civic pride-evoking tees and accessories,
-                        while creating quality inner city jobs for locals, and giving back to the people and places that
+                    <dt><Strong>Joe and the Juice</Strong></dt>
+                    <p class="c"> We have always been about coffee, juice and much more. In JOE & THE JUICE, “a Juicer”
+                        is not
+                        a
+                        machine! We focus 100% on people! Our fundamental purpose is to build a contemporary
+                        educational
+                        platform for how to prepare all people of our movement for a healthy life filled with
+                        aspiration
+                        and meaning. Because the world has changed, and what the world needs has changed. </p>
+                    <dt><Strong>Oaklandish (circa 2015)</Strong></dt>
+                    <p class="c"> Our mission is to spread “local love” by way of our civic pride-evoking tees and
+                        accessories,
+                        while creating quality inner city jobs for locals, and giving back to the people and places
+                        that
                         maintain our city’s trailblazer spirit. So, wear it well. When you rock these roots, you're
-                        representing and supporting Oakland</dd>
-                    <dt>Coro Northern California (circa 2015)</dt>
-                    <dd>At Coro, we believe that meaningful change comes from collaboration: people in business and
-                        communities, schools and unions, government and nonprofits, working together to find creative
-                        solutions and strengthen our democracy.</Dd>
+                        representing and supporting Oakland</p>
+                    <dt><Strong>Coro Northern California (circa 2015)</Strong></dt>
+                    <p class="c">At Coro, we believe that meaningful change comes from collaboration: people in business
+                        and
+                        communities, schools and unions, government and nonprofits, working together to find
+                        creative
+                        solutions and strengthen our democracy.</p>
                     <ht>
 
-                        <caption><strong> Note:</strong> Unfortunately, I do not have any internship experiences under
-                            my
-                            belt.
-                            I
-                            am currently looking for internship related to Software Engineering
-                            or Web Development, and I welcome any Computer Science entry-level related internships
-                            recommendations sent my way!</scaption>
-                            <br>
+                        <caption><strong> Note:</strong>
+                            <p>Unfortunately, I do not have any internship experiences
+                                under
+                                my
+                                belt.
+                            </p>
+                        </caption>
+                        <br>
                 </dl>
                 <ol>
                     <h3><strong>Project Experience</strong></h3>
@@ -152,14 +194,12 @@
                 <dl>
                     <dt>Music Production</dt>
                     <dd>Ableton Suite (Digital Audio Workstation; 4-5yrs), Serum (Sound Design VST; 2-3yrs)</dd>
-                    <Strong>
-                        <p>Check out my SoundCloud profile!</p>
-                    </Strong> <a href="https://soundcloud.com/officialarbis" SoundCloud Profile></a>
                 </dl>
                 <br>
                 <dl>
                     <dt>Podcasting</dt>
-                    <dd>As a Member of the WSJU (Officially from 2019-present), I host a Friday night session known as
+                    <dd>As a Member of the WSJU (Officially from 2019-present), I host a Friday night session known
+                        as
                         "The Source Code."
                         The podcast centers around spheres of Technology such as Health, Law, Gaming,
                         to spread awareness about what is going on today!
@@ -175,7 +215,7 @@
             <hr>
             <!--- Favorite Music Video --->
             <a id="Best"></a>
-            <div class="Favorite Song">
+            <div class="Favorite-Song">
                 <h2> Best Song: Daft Punk - One More Time </h2>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/FGBhQbmPwH8" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -183,14 +223,17 @@
             </div>
             <div class="jumbotron text-center" style="margin-button:0">
                 <h2> Favorite Websites </h2>
-                <h2>Anchor.fm</h2>
+                <br>
+                <br>
                 <a href="https://anchor.fm/"><button>Anchor.fm</button></a>
-                <caption> Anchor is a free platform for podcast creation. </caption>
+                <caption> <p class = "c"> Anchor is a free platform for podcast creation.></p></caption>
                 <br>
                 <br>
                 <a href="http://catb.org/~esr/faqs/smart-questions.html" target="blank"><button>"Don't Ask to Ask.
                         Ask!"</button></a>
-                <caption>'How To Ask/Answer Questions in a Helpful Way.'</caption>
+                <caption><p class = "c">'How To Ask/Answer Questions in a Helpful Way.'</p></caption>
+                <br>
+                
             </div>
 
             <div class="Best Film">
@@ -202,10 +245,9 @@
                     allowfullscreen></iframe>
             </div>
             <div class="Best TV Show">
-                <h2> Best TV Show </h2>
+                <h2> Best TV Show - Bojack Horseman </h2>
                 <img src=Bojack.jpg alt="Show" width=15%></img>
             </div>
-            <hr>
             </style>
             <hr>
 
@@ -213,9 +255,9 @@
                 <a id="index"></a>
                 <h2>Index of Projects</h2>
                 <ul>
-                    <li><a href="https://rbills17.github.io/robills17.github.io/">https://rbills17.github.io/robills17.github.io/</a></li>
-                    <li><a href="hhttps://sourcecode204863754.wordpress.com/">wordpress</a></li>
-                    <li><a href="https://anchor.fm/robert4416">Anchor.fm</a></li>
+                    <li><a
+                            href="https://rbills17.github.io/robills17.github.io/">https://rbills17.github.io/robills17.github.io/</a>
+                    </li>
                 </ul>
             </div>
 
@@ -228,6 +270,13 @@
                     <input type="submit" value="Email">
                 </div>
             </form>
-</body>
 
-</html>
+</body>
+<footer>
+    <ul>
+        <li>Instagram</li>
+        <li>Twitter</li>
+        <li><a href=https://github.com/rbills17> GitHub </a> </li> <li><a
+                    href=https://soundcloud.com/officialarbis>SoundCloud </a> </li> <li><a
+                        href=https://sourcecodecompsci.wordpress.com> WordPress</a> </li> </ul> &copy; The Source Code
+                        </footer> </html>
