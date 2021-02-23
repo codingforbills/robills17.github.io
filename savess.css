@@ -1,0 +1,103 @@
+/***********************************TAG SELECTORS*******************************/
+img{
+    position: relative;
+    left: 5px;
+    border-radius: 35%;
+
+}
+
+body {
+    text-align: center;
+    background-color: #3FC1C9;
+    margin:0;
+}
+
+hr {
+    background-color: #3f72af;
+    border-style: dashed;
+    border-top-style: dotted;
+    border-color: #3f72af;
+    border-width: 10px;
+    width: 50%;
+    height: 2px;
+}
+
+table {
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    border-width: 8px;
+}
+h1
+{
+    margin:auto;
+    margin-top:0;
+    color:#3f72af;
+    font-size: xx-large;
+    text-align: center;
+    font-family:fantasy, Times, serif;
+	font-size: 300%;
+	line-height: 1.2;
+}
+h2
+{
+    margin:auto;
+    margin-top:0;
+    color:#355C7D;
+    font-size: larger;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: normal;
+    text-decoration: underline overline ;
+}
+h3
+{
+    color:#0d7377;
+}
+nav {
+    text-align: center;
+    position: relative;
+   width:180px;
+ }
+ ul {
+     background-color: #3FC1C9;
+ }
+ ul li {
+     background-color:darkcyan;
+     padding: 20px;
+ }
+/***********************************ID SELECTORS*******************************/
+#heading
+{
+    color: #95e1d3;
+}
+#big{
+    font-size: 10000px;
+}
+#topnav{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/***********************************CLASS SELECTORS*******************************/
+
+element.style{
+    height: 200px;
+    width:200px;
+    padding-top:20px;
+    padding-left:20px;
+    padding:20px;
+    border: solid 10px;
+    margin:20px;
+}
+p.c{
+    font-style: oblique;
+    font-family: sans-serif;
+
+}
+.Favorite-Song{
+    margin: auto;
+    align-self: baseline;
+    border-radius: 10px;
+    overflow: hidden;
+}
+

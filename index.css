@@ -1,24 +1,26 @@
 /***********************************TAG SELECTORS*******************************/
-img{
+img {
+
     position: relative;
     left: 5px;
     border-radius: 35%;
 
 }
 
+
+
 body {
+    background: linear-gradient(to bottom, #ccffff 0%, #cccc00 100%);
     text-align: center;
-    background-color: #3FC1C9;
-    margin:0;
+    margin: 0;
 }
 
 hr {
-    background-color: #3f72af;
     border-style: dashed;
-    border-top-style: dotted;
+    border-top-style: dashed;
     border-color: #3f72af;
     border-width: 10px;
-    width: 50%;
+    width: 100%;
     height: 2px;
 }
 
@@ -28,76 +30,120 @@ table {
     align-items: center;
     border-width: 8px;
 }
-h1
-{
-    margin:auto;
-    margin-top:0;
-    color:#3f72af;
+
+h1 {
+    color: #276678;
+    margin: auto;
+    margin-top: 0;
     font-size: xx-large;
     text-align: center;
-    font-family:fantasy, Times, serif;
-	font-size: 300%;
-	line-height: 1.2;
+    font-family: fantasy, Times, serif;
+    font-size: 300%;
+    line-height: 1.2;
 }
-h2
-{
-    margin:auto;
-    margin-top:0;
-    color:#355C7D;
+
+h2 {
+    margin: auto;
+    margin-top: 0;
+    color: #355C7D;
     font-size: larger;
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: normal;
-    text-decoration: underline overline ;
+    text-decoration: underline overline;
 }
-h3
-{
-    color:#0d7377;
+
+h3 {
+    color: #0d7377;
 }
-nav {
+
+.navbar {
     text-align: center;
     position: relative;
-   width:180px;
- }
- ul {
-     background-color: #3FC1C9;
- }
- ul li {
-     background-color:darkcyan;
-     padding: 20px;
- }
+    width: 180px;
+}
+
+ul {
+    padding: 20px;
+}
+
+ul li {
+    margin: 5px;
+}
+
 /***********************************ID SELECTORS*******************************/
-#heading
-{
+#title {
+    background: rgb(29, 237, 253);
+    background: linear-gradient(90deg, rgba(29, 237, 253, 0.2007177871148459) 0%, rgba(16, 194, 208, 1) 50%, rgba(0, 13, 150, 0.2) 100%);
+    text-align: center;
+    margin: 0;
+}
+
+#heading {
     color: #95e1d3;
 }
-#big{
+
+#big {
     font-size: 10000px;
 }
-#topnav{
+
+#navbar {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#sel-img {
+    position: relative;
+    left: 5px;
+    border-radius: 15%;
+    height: 10vw;
+    width: 19.15vw;
+}
+
+#sel-img2 {
+    position: relative;
+    float: left;
+    height: 10vw;
+    width: 19.15vw;
 }
 
 /***********************************CLASS SELECTORS*******************************/
 
-element.style{
+element.style {
     height: 200px;
-    width:200px;
-    padding-top:20px;
-    padding-left:20px;
-    padding:20px;
+    width: 200px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding: 20px;
     border: solid 10px;
-    margin:20px;
+    margin: 20px;
 }
-p.c{
+
+p.c {
     font-style: oblique;
     font-family: sans-serif;
 
 }
-.Favorite-Song{
+
+.Favorite-Song {
     margin: auto;
     align-self: baseline;
     border-radius: 10px;
     overflow: hidden;
 }
 
+.right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 10px;
+}
+
+.Work {
+
+    display: flex;
+    align-items:center;
+    overflow: auto;
+}
+.container-fluid {
+    padding:3% 15%;
+}
